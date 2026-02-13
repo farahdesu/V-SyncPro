@@ -1,0 +1,7 @@
+{
+  "name": "LinkedIn Sync Pro",
+  "description": "Transform your CV into a perfectly formatted LinkedIn profile using AI-powered structured extraction and field mapping.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
