@@ -1,6 +1,7 @@
+
 {
-  "name": "LinkedIn Sync Pro",
-  "description": "Transform your CV into a perfectly formatted LinkedIn profile using AI-powered structured extraction and field mapping.",
+  "name": "SyncPro: LinkedIn AI Booster",
+  "description": "Browser extension that transforms CVs into optimized LinkedIn profiles using Deep AI Analysis.",
   "requestFramePermissions": [
     "camera"
   ]

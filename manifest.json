@@ -1,0 +1,23 @@
+
+{
+  "manifest_version": 3,
+  "name": "SyncPro: LinkedIn AI Booster",
+  "version": "1.0.0",
+  "description": "Deep analysis CV to LinkedIn sync tool powered by Gemini 3 Flash.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Sync your CV to LinkedIn"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.googleapis.com/*",
+    "https://*.linkedin.com/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval' https://esm.sh; object-src 'self'"
+  }
+}
